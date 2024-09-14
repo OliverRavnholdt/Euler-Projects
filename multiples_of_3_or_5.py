@@ -12,6 +12,7 @@ def problem_1():
 
     return total
 
+
 if __name__ == "__main__":
     total = problem_1()
     print("The total is:", total)
