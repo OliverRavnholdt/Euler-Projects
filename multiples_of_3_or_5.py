@@ -1,13 +1,17 @@
-N = 1000    # Amount to sum all multiples under
+def problem_1():
+    PROBLEM_ID = 1
+    N = 1000  # Amount to sum all multiples under
+    multiples = [3, 5]  # Numbers to check for multiples
 
-multiples = [3, 5]  # Numbers to check for multiples
+    total = 0
+    for n in range(N):
+        for i in multiples:
+            if n % i == 0:
+                total += n
+                break
 
-total = 0
-for n in range(N):
-    for i in multiples:
-        if n % i == 0:
-            print(n)
-            total += n
-            break
+    return total
 
-print("The total is:", total)
+if __name__ == "__main__":
+    total = problem_1()
+    print("The total is:", total)
