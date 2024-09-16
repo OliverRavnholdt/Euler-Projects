@@ -1,5 +1,5 @@
-def problem_4():
-    PROBLEM_ID = 4
+def problem_6():
+    PROBLEM_ID = 6
 
     N = 100     # Amount to sum for
 
@@ -22,5 +22,5 @@ def problem_4():
 
 
 if __name__ == "__main__":
-    problem_id, something = problem_4()
+    problem_id, something = problem_6()
     print("The difference of sums is:", something)
