@@ -61,4 +61,4 @@ def leap_year_check(year):
 
 if __name__ == "__main__":
     problem_id, something = problem_19()
-    print(something)
+    print("Nice number!", something)
