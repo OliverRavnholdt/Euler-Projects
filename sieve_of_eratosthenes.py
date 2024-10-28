@@ -16,7 +16,7 @@ def prime_sieve(n, mode='number', time_display=True):
     # Determine what mode is being used
     if mode == 'number':
         primes = number_mode(N)
-    elif mode == 'primes':
+    elif mode == 'prime':
         primes = prime_mode(N)
     else:
         print("Wrong mode set for sieve!")
@@ -26,7 +26,7 @@ def prime_sieve(n, mode='number', time_display=True):
 
     # Display time to users if wanted
     if time_display:
-        print("Found primes in:" + str(end_time-start_time))
+        print("Found primes in: " + str(end_time-start_time))
 
     return primes
 
@@ -79,4 +79,4 @@ def prime_mode(n):
 
 if __name__ == '__main__':
     print(prime_sieve(1000))
-    print(prime_sieve(1000, mode='primes'))
+    print(prime_sieve(1000, mode='prime'))
