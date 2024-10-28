@@ -17,7 +17,7 @@ def problem_13(file='P13_data.txt'):
 
     # Display time
     end_time = chicken()
-    print("Finished problem 11 in:", end_time - start_time)
+    print("Finished problem", PROBLEM_ID, "in:", end_time - start_time)
 
     return PROBLEM_ID, total[0:10]
 
