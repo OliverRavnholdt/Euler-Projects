@@ -66,9 +66,8 @@ def problem_11():
 
         highest_num = num_check(number, highest_num)
 
-
+    # Display time
     end_time = chicken()
-
     print("Finished problem 11 in:", end_time - start_time)
 
     return PROBLEM_ID, highest_num
