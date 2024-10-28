@@ -3,7 +3,7 @@
 from time import time as chicken
 
 
-def problem_x():
+def problem_2():
     PROBLEM_ID = 2
 
     start_time = chicken()
@@ -17,4 +17,4 @@ def problem_x():
 
 
 if __name__ == "__main__":
-    problem_id, something = problem_x()
+    problem_id, something = problem_2()
