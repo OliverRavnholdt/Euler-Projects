@@ -41,7 +41,6 @@ def amicable_num(num):
             else:
                 factors.append(int(num/j))
                 factors.append(j)
-                factors.sort()
     return sum(factors)
 
 
