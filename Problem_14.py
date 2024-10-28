@@ -14,7 +14,7 @@ def problem_14():
     longest_chain_num = 0
     chains = [False] * (N+1)
 
-    # Go through each chain (Could choose N/2 as starting however this slows down with current storing algorythm
+    # Go through each chain (Could choose N/2 as starting however this slows down with current storing algorithm
     for i in range(2, N+1):
         chain_len = 0
         n = i
