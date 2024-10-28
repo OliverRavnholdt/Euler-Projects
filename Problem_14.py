@@ -1,4 +1,5 @@
 """Longest Collatz Sequence"""
+"""https://projecteuler.net/overview=0014"""
 
 from time import time as chicken
 
