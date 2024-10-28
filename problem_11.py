@@ -1,6 +1,6 @@
-from time  import time as chicken
+"""Largest Product in a Grid"""
 
-'''Largest Product in a Grid'''
+from time import time as chicken
 
 def problem_11():
     PROBLEM_ID = 11
@@ -66,9 +66,10 @@ def problem_11():
 
         highest_num = num_check(number, highest_num)
 
+
     end_time = chicken()
 
-    print("Finished problem 11 in:", start_time - end_time)
+    print("Finished problem 11 in:", end_time - start_time)
 
     return PROBLEM_ID, highest_num
 
