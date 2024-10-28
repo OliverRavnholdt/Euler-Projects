@@ -1,4 +1,5 @@
-"""Maximum Path Sum I"""
+"""Maximum Path Sum I
+https://www.youtube.com/watch?v=v0fR9xPEbEk"""
 
 from time import time as chicken
 
