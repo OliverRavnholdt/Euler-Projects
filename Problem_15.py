@@ -1,5 +1,5 @@
-"""Lattice Paths"""
-"""https://stemhash.com/counting-lattice-paths/"""
+"""Lattice Paths
+https://stemhash.com/counting-lattice-paths/"""
 
 from time import time as chicken
 
