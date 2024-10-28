@@ -17,6 +17,10 @@ def problem_18():
     # Use the pathfinder function to find the best path
     new_triangle = path_finder(rows)
 
+    # Display time
+    end_time = chicken()
+    print("Finished problem", PROBLEM_ID, "in:", end_time - start_time)
+
     return PROBLEM_ID, new_triangle[-1][0]
 
 
