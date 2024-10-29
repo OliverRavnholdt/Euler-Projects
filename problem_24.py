@@ -1,4 +1,5 @@
-"""Lexicographic Permutations"""
+"""Lexicographic Permutations
+https://www.geeksforgeeks.org/lexicographic-permutations-of-string/"""
 
 from time import time as chicken
 
